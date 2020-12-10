@@ -75,3 +75,7 @@ BM Search. Find keyword at: wind in my hair.
 
 ## 修正履歴
 
+[#20201210]
+
+l.104:キーの先頭文字をリターンするようにした
+
