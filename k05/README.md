@@ -1,5 +1,5 @@
 # 課題5 レポート
-学生番号　氏名
+35319017 河辺桜
 
 
 ## 課題
@@ -100,12 +100,62 @@ int AdjacencyMatrix[MAX_STATIONS][MAX_STATIONS] = {
 
 ## ソースコードの説明
 
+l.114　visitedを初期化
+
+l.119　stackを初期化
+
+l.120　出発点をpushする
+
+l.122　stackが空になるまで繰り返す
+
+l.124　indexにstackから取り出したものを入れる
+
+l.125-136　行ったことがなければ行ったことにし、そこから行ける場所をstackに入れる
+
+l.141　すべてに行っているか確認
+
+l.218　visitedを初期化
+
+l.223　キューを初期化
+
+l.224　出発点をキューに入れる
+
+l.226　キューから取り出すものがなくなるまで繰り返す
+
+l.228　indexにキューから取り出したものを入れる
+
+l.229-237　行ったことがなければ行ったことにし、そこから行ける場所をキューに入れる
+
+l.245　すべてに行っているか確認
+
+
+
+
+
 
 
 ## 出力結果
 
 ```
-
+BreadthFirstSearch
+0 is visited
+1 is visited
+2 is visited
+3 is visited
+4 is visited
+5 is visited
+6 is visited
+7 is visited
+BreadthFirstSearch
+0 is visited
+1 is visited
+2 is visited
+3 is visited
+4 is visited
+5 is visited
+6 is visited
+7 is visited
+Time Required: 7
 ```
 
 ## 修正履歴
